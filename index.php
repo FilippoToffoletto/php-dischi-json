@@ -33,16 +33,16 @@
         <main>
             <div class="ft-container ">
                 <div class="row row-cols-3 my-3">
-                    <div class="col my-3">
+                    <div class="col my-3" v-for="(album, index) in albums" :key="index">
                         <div class="ft-card">
-                            <div class="top">
-                                <div class="img"></div>
+                            <div class="top text-center">
+                                <img :src="album.poster" :alt="album.title" class="">
                             </div>
                             <div class="bottom">
                                 <div class="content-bottom my-2">
-                                    <h2>title</h2>
-                                    <h5>artist</h5>
-                                    <h6>data</h6>
+                                    <h2>title {{album.title}}</h2>
+                                    <h5>artist {{album.author}}</h5>
+                                    <h6>data {{album.year}}</h6>
                                 </div>
                             </div>
                         </div>

@@ -40,24 +40,28 @@ main .col .ft-card{
     padding: 20px;
     cursor: pointer;
 }
-.ft-card .top .img{
-    width: 250px;
-    height: 200px;
+.ft-card .top{
+    height: 60%;
+    margin: 10px 0px;
     /* DEBUG */
-    background-color: #49a078;
+}
+.ft-card .top img{
+    width: 400px;
+    height: 100%;
+    object-fit: contain;
 }
 
 .ft-card .bottom{
     text-align: center;
     text-transform: capitalize;
+    height: 40%;
+    width: 90%;
 }
 
-.ft-card .top img{
-    width: 80%;
-    object-fit: cover;
-}
+
 .ft-card .bottom h2{
     font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .ft-card .bottom h5{

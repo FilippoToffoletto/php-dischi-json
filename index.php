@@ -22,13 +22,36 @@
 
     <div id="app">
         <header>
-            <div class="container">
+            <div class="container d-flex align-items-center">
                 <div class="logo">
                     <img src="assets/spotify-logo.svg" alt="Spotify">
                 </div>
+                <h1 class="text-center w-100 fs-1 fw-bolder">SELEZIONA CANZONE</h1>
             </div>
         </header>
+
+        <main>
+            <div class="ft-container ">
+                <div class="row row-cols-3 my-3">
+                    <div class="col my-3">
+                        <div class="ft-card">
+                            <div class="top">
+                                <div class="img"></div>
+                            </div>
+                            <div class="bottom">
+                                <div class="content-bottom my-2">
+                                    <h2>title</h2>
+                                    <h5>artist</h5>
+                                    <h6>data</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
     
+    <script src="./js/main.js"></script>
 </body>
 </html>

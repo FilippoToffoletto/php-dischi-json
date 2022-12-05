@@ -1,0 +1,71 @@
+body{
+    background-color: #124559;
+    color: white;
+}
+
+/* HEADER */
+header{
+    width: 100vw;
+    padding: 20px 0;
+    background-color: #01161e;
+}
+header img{
+    width: 100px;
+}
+h1{
+    color: #1FD660;
+    cursor: pointer;
+    transition: .9s ease-in;
+}
+h1:hover{
+    color: #49a078;
+}
+
+/* MAIN */
+
+main .ft-container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main .col .ft-card{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #01161e;
+    border-radius: 16px;
+    padding: 20px;
+    cursor: pointer;
+}
+.ft-card .top .img{
+    width: 250px;
+    height: 200px;
+    /* DEBUG */
+    background-color: #49a078;
+}
+
+.ft-card .bottom{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ft-card .top img{
+    width: 80%;
+    object-fit: cover;
+}
+.ft-card .bottom h2{
+    font-weight: 600;
+}
+
+.ft-card .bottom h5{
+    font-weight: 200;
+}
+.ft-card .bottom h6{
+    font-weight: 700;
+}
+.ft-card .bottom h5, h6{
+    font-size: 1.15rem;
+}
